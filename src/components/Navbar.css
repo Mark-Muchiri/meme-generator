@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+  }
+  
+  .Navbar {
+    position: static;
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    top: 0px;
+  }
+  
+  .logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .logo-img {
+    width: 32px;
+    height: 100%;
+    padding-right: 10px;
+  }
+  
+  .logo-text {
+    color: lightgray;
+    font-family: Karla;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -2px;
+  }
+  
+  .other-text {
+    padding-right: 37px;
+  }
+  
+  .other-text>p {
+    color: lightgray;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  pre {
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+  }
