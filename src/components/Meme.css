@@ -130,7 +130,7 @@ Image {
 .top-text {
     position: absolute;
     top: 0;
-    /* top: 6.9em; */
+    z-index: 99;
     width: 80%;
     text-align: center;
     left: 50%;
@@ -157,7 +157,7 @@ Image {
 .bottom-text {
     position: absolute;
     bottom: 0;
-    /* top: 6.9em; */
+    z-index: 99;
     width: 80%;
     text-align: center;
     left: 50%;
