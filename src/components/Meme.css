@@ -117,8 +117,8 @@ button>p {
 .meme-img {
     aspect-ratio: 4 / 5;
     flex-grow: 1;
-    max-width: 385px;
-    max-height: 400px;
+    max-width: 80%;
+    max-height: 63vh;
     border-radius: 7px;
     object-fit: contain;
 }
